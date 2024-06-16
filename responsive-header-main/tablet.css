@@ -1,0 +1,50 @@
+section.section-1{
+    font-size: 14px;
+}
+
+div.block-1{
+    flex-direction: column;
+}
+
+div.block-1 div:first-child{
+    margin-right: 0px;
+}
+
+div.social-btn ul li i{
+    font-size: 14px;
+}
+
+section.section-2{
+    flex-direction: column;
+    padding-bottom: 12px;
+}
+
+div.phone-number{
+    font-size: 16px;
+}
+
+div.appointment button{
+    font-size: 14px;
+}
+
+#toggle-btn{
+    display: block;
+}
+
+nav > ul{
+    display: none;
+}
+
+#toggle:checked + ul{
+    display: block;
+}
+
+nav ul li{
+    display: block;
+    text-align: left;
+}
+
+
+nav ul li a{
+    font-size: 16px;
+}

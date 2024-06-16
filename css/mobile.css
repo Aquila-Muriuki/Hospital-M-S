@@ -1,0 +1,57 @@
+section.section-1{
+    font-size: 14px;
+    flex-direction: column;
+}
+
+div.block-1{
+    flex-direction: row;
+}
+
+div.block-1 div:first-child{
+    margin-right: 40px;
+}
+
+div.social-btn ul li i{
+    font-size: 14px;
+}
+
+section.section-2{
+    flex-direction: column;
+    padding-bottom: 12px;
+}
+
+div.phone-number{
+    font-size: 12px;
+}
+
+div.appointment button{
+    font-size: 12px;
+}
+
+#toggle-btn{
+    display: block;
+}
+
+#toggle-btn i{
+    font-size: 20px;
+    padding: 8px;
+}
+
+nav > ul{
+    display: none;
+}
+
+#toggle:checked + ul{
+    display: block;
+}
+
+nav ul li{
+    display: block;
+    text-align: left;
+}
+
+nav ul li a{
+    font-size: 14px;
+}
+
+

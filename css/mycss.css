@@ -1,0 +1,129 @@
+*{
+    font-family: poppins;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    margin: 0%;
+    background: linear-gradient(to bottom, #cc2b5e  , #753a88);   
+}
+
+section.section-1,section.section-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+div.block-1{
+    display: flex;
+    align-items: center;
+}
+
+div.block-1 div:first-child{
+    margin-right: 40px;
+}
+
+div.phone-apointment{
+    display: flex;
+    align-items: center;
+}
+
+div.social-btn ul li i{
+    font-size: 22px;
+    margin: 10px 7px;
+    color: dimgray;
+}
+
+div.social-btn ul li i:hover{
+    color: steelblue;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+}
+
+li{
+    display: inline-block;
+}
+
+div.phone-number{
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+div.phone-number i{
+    transform: rotateY(180deg);
+}
+
+div.appointment button{
+    border: none;
+    background-color: rgb(120, 186, 248);
+    font-size: 18px;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 30px;
+    outline: none;
+    margin: 0px 15px;
+    transition: box-shadow 0.5s;
+}
+
+div.appointment button:hover{
+    box-shadow: 0px 0px 10px rgb(82, 166, 235);
+}
+
+nav{
+    background-color: rgb(54, 150, 206);
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    text-align: center;
+}
+
+nav ul li a{
+    font-size: 18px;
+    display: block;
+    color: black;
+    padding: 8px 10px;
+    margin: 0px 5px;
+    font-weight: 500;
+    border-top: 4px solid transparent;    
+    border-bottom: 4px solid transparent;
+    border-radius: 2px;
+    transition-property: border-bottom,background-color;
+    transition-duration: 0.4s;
+}
+
+nav ul li a:hover{
+    background-color: lightcyan;
+    border-bottom: 4px solid black;
+}
+
+#toggle{
+    display: none;
+}
+
+#toggle-btn{
+    display: none;
+    text-align: right;
+}
+
+#toggle-btn i{
+    font-size: 25px;
+    padding: 7px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
